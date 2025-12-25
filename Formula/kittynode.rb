@@ -1,25 +1,25 @@
 class Kittynode < Formula
   desc "Control center for world computer operators."
   homepage "https://github.com/futurekittylabs/kittynode"
-  version "0.73.0"
+  version "0.74.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.73.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "1973e5fd62271dba0d69db8dbfac50f6002333188d0a3ed68d44b84a1b740672"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.74.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "348d26ebf0e2a2ba5922ce9adbd89392c8d66de00dc2c689a1abf38eea36fef3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.73.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c2de7e8dedfb8dfe41282c867b55e1b02aaeaf33b240790811d7af43a8943470"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.74.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "536a844a96054cf1504b4beac54e69915d2fe695226ac59fdd4894ef90480013"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.73.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3c031edf3d6d5154a6d5b0df4fc5086f38063393f99e12786266022fc2a7d958"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.74.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6d0c20e60904046b24ee053ea98203768bce92cf64b1ccd39f9636d7e0c3d9c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.73.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ead51401847b295834c07c038b7864953175fa06a2374c313322fa208fb4565f"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.74.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f8f1a2c0e970e747e8e30fe70fd8b30cb7ba0fdb8e456761eddfa9011ac692d3"
     end
   end
   license "MIT"
