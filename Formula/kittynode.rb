@@ -1,25 +1,25 @@
 class Kittynode < Formula
   desc "Control center for world computer operators."
-  homepage "https://github.com/futurekittylabs/kittynode"
-  version "0.77.0"
+  homepage "https://kittynode.com"
+  version "0.78.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.77.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "7993f541ea0f3f843139df517069942282d337d2ce707847c55005ace6ce078d"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "b8aa47e14815aa644798d8301d003e938a11e6ac7845a4f1b3510af6989cdd64"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.77.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "6faedb59d2bc8fd7cc1eaa2a5d98412dbf1ef3ba71a32c1b25e2b9d7d7ffe443"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "1c3e0c65560a68881621afc0ae3e7c2a0086f0c4fcc6ea80ebba3461af3fb8f8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.77.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "292efd1889159b773c9a201755c09a615696963e4925c7bdeb59718e126b61a4"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a5f365b3979e8f6fd7c139cb15ac55bd4325e44c7f3f4580b384ca6527e2a86c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.77.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0ae6a186075f15a6e642c5f9b59cc66caad96aca369d9254e2144bd9b3e7fa46"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f2bd3758e446fd680f546ba89c1b91ae7064a0a1bf829a7c1f11db2c5eabd6c1"
     end
   end
   license "MIT"
