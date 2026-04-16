@@ -1,25 +1,25 @@
 class Kittynode < Formula
   desc "Control center for world computer operators."
   homepage "https://kittynode.com"
-  version "0.78.0"
+  version "0.80.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b8aa47e14815aa644798d8301d003e938a11e6ac7845a4f1b3510af6989cdd64"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.80.0/kittynode-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "05f3d51df721f1c84b4259938f95904802254fe1ed97b45b42f95dba27890c00"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "1c3e0c65560a68881621afc0ae3e7c2a0086f0c4fcc6ea80ebba3461af3fb8f8"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.80.0/kittynode-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "677f0f4af563da91dd6000164db8641f25817d4416f98742ae7cb5adf1663b53"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a5f365b3979e8f6fd7c139cb15ac55bd4325e44c7f3f4580b384ca6527e2a86c"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.80.0/kittynode-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9ce1019c88c08e3af7b570eccd5efa01f78e3eadd9c51422a15deb6e5fe2bf52"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.78.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f2bd3758e446fd680f546ba89c1b91ae7064a0a1bf829a7c1f11db2c5eabd6c1"
+      url "https://github.com/futurekittylabs/kittynode/releases/download/kittynode-cli-0.80.0/kittynode-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8a2256036a5db8259deb3085aa5fd82c773acb7cd95e405535b3e7afba64a208"
     end
   end
   license "MIT"
